@@ -1,0 +1,11 @@
+db.createUser(
+      {
+          user: "rootuser",
+          pwd: "rootpass",
+          roles: [ "root" ]
+      }
+  )
+  
+  db.getUsers();
+  
+Mongo stores documents (rows) in collections (tables)
